@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(311deg 100% 25%) 10%,
+    hsl(334deg 100% 40%) 20%,
+    hsl(6deg 98% 61%) 30%,
+    hsl(37deg 100% 50%) 40%,
+    hsl(55deg 100% 50%) 50%,
+    hsl(94deg 85% 65%) 60%,
+    hsl(160deg 100% 46%) 70%,
+    hsl(178deg 100% 44%) 80%,
+    hsl(190deg 100% 49%) 90%,
+    hsl(202deg 90% 62%) 100%
+  );
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0066cc;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
+
+.container2 {
+  display: flex;
+}
+.dice {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.flagImage {
+  width: 25%;
+}
+.bothImage {
+  width: 50%;
+}
